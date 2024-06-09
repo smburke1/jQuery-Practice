@@ -1,3 +1,4 @@
+//Container One Box One Select
 $("#container-one-box-one").click(function(){
   $("#container-one-box-one").css({
     "background": "red",
@@ -9,7 +10,7 @@ $("#container-one-box-one").click(function(){
   })
 });
 
-
+//Container One Box Two Select
 $("#container-one-box-two").click(function(){
   $("#container-one-box-one").css({
     "background": "black",
@@ -21,6 +22,17 @@ $("#container-one-box-two").click(function(){
   })
 });
 
+//Container Two Div Reset
+$("#container-two-div").click(function(){
+  $("#container-one-box-one").css({
+    "background": "white",
+    "color": "white"
+  });
+  $("#container-one-box-two").css({
+    "background": "white",
+    "color": "white"
+  })
+});
 
 
 
