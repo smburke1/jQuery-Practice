@@ -1,8 +1,32 @@
+$("#container-one-box-one").click(function(){
+  $("#container-one-box-one").css({
+    "background": "red",
+    "color" : "black"
+  });
+  $("#container-one-box-two").css({
+    "background": "black",
+    "color": "red"
+  })
+});
 
 
-$("h1").click(function(){
-  console.log("test");
-})
+$("#container-one-box-two").click(function(){
+  $("#container-one-box-one").css({
+    "background": "black",
+    "color": "red"
+  });
+  $("#container-one-box-two").css({
+    "background": "red",
+    "color": "black"
+  })
+});
+
+
+
+
+
+
+
 
 
 
