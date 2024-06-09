@@ -26,11 +26,11 @@ $("#container-one-box-two").click(function(){
 $("#container-two-div").click(function(){
   $("#container-one-box-one").css({
     "background": "white",
-    "color": "white"
+    "color": "black"
   });
   $("#container-one-box-two").css({
     "background": "white",
-    "color": "white"
+    "color": "black"
   })
 });
 
