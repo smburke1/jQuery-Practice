@@ -28,10 +28,12 @@ $("#container-two-div").click(function(){
     "background": "white",
     "color": "black"
   });
+  $("h2").html(":)");
+;
+ 
+
   $("#container-one-box-two").css({
     "background": "white",
     "color": "black"
   })
 });
-
-
