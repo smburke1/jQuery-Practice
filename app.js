@@ -3,7 +3,7 @@ $("#container-one-box-one").click(function(){
   $("#container-one-box-one").css({
     "background": "red",
     "color" : "black"
-  });
+  });  
   $("#container-one-box-two").css({
     "background": "black",
     "color": "red"
@@ -29,9 +29,7 @@ $("#container-two-div").click(function(){
     "color": "black"
   });
   $("h2").html(":)");
-;
- 
-
+  ;
   $("#container-one-box-two").css({
     "background": "white",
     "color": "black"
