@@ -28,7 +28,7 @@ $("#container-two-div").click(function(){
     "background": "white",
     "color": "black"
   });
-  $("h2").html(":)");
+  $("h2").html(":) <-- change back");
   ;
   $("#container-one-box-two").css({
     "background": "white",
